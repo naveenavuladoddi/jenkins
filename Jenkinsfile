@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PROJECT_ID = 'virtat-kohli'
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credential
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('new-jenkins-pipeline')  // Service account credential
     }
 
     stages {
