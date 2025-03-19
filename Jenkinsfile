@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID = 'virtat-kohli'
+        PROJECT_ID = 'pivotal-data-452009-k8'
         GOOGLE_APPLICATION_CREDENTIALS = credentials('new-jenkins-pipeline')  // Service account credential
     }
 
