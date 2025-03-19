@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PROJECT_ID = 'pivotal-data-452009-k8'
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('new-jenkins-pipeline')  // Service account credential
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credential
     }
 
     stages {
